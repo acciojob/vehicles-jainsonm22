@@ -1,19 +1,15 @@
 package com.driver;
 
 public class F1 extends Car {
-  int gear;
+
+
     public F1(String name, boolean isManual) {
-        super(name,isManual);
-        gear=0;
+        super(name,4,4,6,isManual,name,4);
+
     }
 
-    public int getGear() {
-        return gear;
-    }
 
-    public void setGear(int gear) {
-        this.gear = gear;
-    }
+
 
     public void accelerate(int rate){
         int newSpeed = getCurrentSpeed()+rate; //set the value of new speed by using currentSpeed and rate
