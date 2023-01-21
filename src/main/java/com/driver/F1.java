@@ -23,34 +23,34 @@ String isManual;
          */
 
         if (newSpeed == 0) {
-            setGears(1);
+            changeGear(1);
             //Stop the car, set gear as 1
         }
         if (newSpeed >= 1 && newSpeed <= 50) {
-            setGears(1);
+            changeGear(1);
             //Stop the car, set gear as 1
         }
         if (newSpeed > 50 && newSpeed <= 100) {
-            setGears(2);
+            changeGear(2);
             //Stop the car, set gear as 1
         }
         if (newSpeed > 100 && newSpeed <= 150) {
-            setGears(3);
+            changeGear(3);
             //Stop the car, set gear as 1
         }
 
         if (newSpeed > 150 && newSpeed <= 200) {
-            setGears(4);
+            changeGear(4);
             //Stop the car, set gear as 1
         }
 
         if (newSpeed > 200 && newSpeed <= 250) {
-            setGears(5);
+            changeGear(5);
             //Stop the car, set gear as 1
         }
         if (newSpeed > 250) {
 
-            setGears(6);
+            changeGear(6);
             //Stop the car, set gear as 1
         }
 
